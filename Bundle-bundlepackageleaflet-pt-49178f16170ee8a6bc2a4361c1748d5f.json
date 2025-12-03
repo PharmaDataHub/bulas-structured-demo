@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "id": "bundlepackageleaflet-pt-49178f16170ee8a6bc2a4361c1748d5f",
+  "id": "bundlepackageleaflet-pt-dcaa4d32aa6658a8df831551503e52ee",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"
@@ -9,16 +9,16 @@
   "type": "document",
   "identifier": {
     "system": "https://www.gravitatehealth.eu/sid/doc",
-    "value": "EU/1/19/1370/001"
+    "value": "EU/1/97/049/001"
   },
   "timestamp": "2023-06-27T10:09:22Z",
   "language": "pt",
   "entry": [
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-pt-16598f252d07b4784b82ba43cf9e847e",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Composition/composition-pt-873a1a47330e628770640f9c96c0761e",
       "resource": {
         "resourceType": "Composition",
-        "id": "composition-pt-16598f252d07b4784b82ba43cf9e847e",
+        "id": "composition-pt-873a1a47330e628770640f9c96c0761e",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"
@@ -26,8 +26,8 @@
         },
         "identifier": [
           {
-            "system": "nan",
-            "value": "c90d140de2d4ddf3b2a2617fc2fc996c"
+            "system": "https://spor.ema.europa.eu/rmswi/",
+            "value": "EU/1/97/049/001"
           }
         ],
         "status": "final",
@@ -42,16 +42,16 @@
         },
         "subject": [
           {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
           }
         ],
-        "date": "2022-04-29T13:28:17Z",
+        "date": "2022-02-16T13:28:17Z",
         "author": [
           {
-            "reference": "Organization/mah-31ff1af739c7dcf77386a86f8dd83d29"
+            "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
           }
         ],
-        "title": "TEST PURPOSES ONLY - Dovato 50 mg/300 mg film-coated tablets",
+        "title": "TEST PURPOSES ONLY - Karvea 300 mg tablet",
         "attester": [
           {
             "mode": {
@@ -62,7 +62,7 @@
                 }
               ]
             },
-            "time": "2022-04-29T13:28:17Z"
+            "time": "2022-02-16T13:28:17Z"
           }
         ],
         "language": "pt",
@@ -115,7 +115,7 @@
                 },
                 "text": {
                   "status": "additional",
-                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>B. FOLHETO INFORMATIVO Folheto informativo: Informação para o doente</p><p>Dovato 50 mg/300 mg comprimidos revestidos por película<br/>dolutegravir/lamivudina</p><p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si. - Conserve este folheto. Pode ter necessidade de o ler novamente.<br/>- Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico. - Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.<br/>- Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.</p></div>"
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Karvea 300 mg comprimidos</p><p>irbesartan</p><p>Leia com atenção todo este folheto antes de começar a tomar este medicamento, pois contém informação importante para si.</p><ul><li>Conserve este folheto. Pode ter necessidade de o ler novamente.</li><li>Caso ainda tenha dúvidas, fale com o seu médico ou farmacêutico.</li><li>Este medicamento foi receitado apenas para si. Não deve dá-lo a outros; o medicamento pode serlhes prejudicial mesmo que apresentem os mesmos sinais de doença.</li><li>Se tiver quaisquer efeitos secundários, incluindo efeitos secundários não indicados neste folheto, fale com o seu médico ou farmacêutico.</li></ul></div>"
                 }
               },
               {
@@ -131,11 +131,11 @@
                 },
                 "text": {
                   "status": "additional",
-                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>O que contém este folheto:</p><ol><li>O que é Dovato e para que é utilizado</li><li>O que precisa de saber antes de tomar Dovato</li><li>Como tomar Dovato</li><li>Efeitos indesejáveis possíveis</li><li>Como conservar Dovato</li><li>Conteúdo da embalagem e outras informações</li></ol></div>"
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>O que contém este folheto:</strong></p><ol><li>O que é Karvea e para que é utilizado</li><li>O que precisa de saber antes de tomar Karvea</li><li>Como tomar Karvea</li><li>Efeitos secundários possíveis</li><li>Como conservar Karvea</li><li>Conteúdo da embalagem e outras informações</li></ol></div>"
                 }
               },
               {
-                "title": "1. O que é Dovato e para que é utilizado",
+                "title": "1. O que é Karvea e para que é utilizado",
                 "code": {
                   "coding": [
                     {
@@ -143,15 +143,15 @@
                       "system": "https://spor.ema.europa.eu/rmswi/"
                     }
                   ],
-                  "text": "1. O que é Dovato e para que é utilizado"
+                  "text": "1. O que é Karvea e para que é utilizado"
                 },
                 "text": {
                   "status": "additional",
-                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Dovato é um medicamento que contém duas substâncias ativas utilizadas para tratar a infeção por VIH: dolutegravir e lamivudina. O dolutegravir pertence a um grupo de medicamentos antirretrovíricos chamados inibidores da integrase (INIs) e a lamivudina pertence a um grupo de medicamentos antirretrovíricos chamados análogos nucleosídeos inibidores da transcriptase reversa (NITRs).</p><p>Dovato é utilizado para tratar o VIH em adultos e adolescentes com mais de 12 anos de idade que pesem pelo menos 40 kg.</p><p>Dovato não cura a infeção por VIH; mantém a quantidade de vírus no seu organismo num nível baixo. Isto contribui para manter o número de células CD4 no seu sangue. As células CD4 são um tipo de glóbulo branco e são importantes para ajudar o seu organismo no combate à infeção.</p><p>Nem todas as pessoas respondem da mesma forma ao tratamento com Dovato. O seu médico monitorizará a eficácia do tratamento.</p></div>"
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Karvea pertence a um grupo de medicamentos conhecidos como antagonistas dos recetores da angiotensina-II. A angiotensina-II é uma substância produzida no organismo que se liga a recetores nos vasos sanguíneos, provocando o seu estreitamento, o que conduz ao aumento da pressão arterial. Karvea impede a ligação da angiotensina-II a estes recetores, fazendo com que os vasos sanguíneos se relaxem e a pressão arterial baixe. Karvea atrasa a diminuição da função renal nos doentes com pressão arterial elevada e diabetes do tipo 2. Karvea é usado em doentes adultos</p><ul><li>para tratar a pressão arterial elevada (hipertensão essencial)</li><li>para proteger os rins nos doentes com pressão arterial elevada, diabetes do tipo 2 e evidência laboratorial de insuficiência dos rins.</li></ul></div>"
                 }
               },
               {
-                "title": "2. O que precisa de saber antes de tomar Dovato",
+                "title": "2. O que precisa de saber antes de tomar Karvea",
                 "code": {
                   "coding": [
                     {
@@ -159,15 +159,15 @@
                       "system": "https://spor.ema.europa.eu/rmswi/"
                     }
                   ],
-                  "text": "2. O que precisa de saber antes de tomar Dovato"
+                  "text": "2. O que precisa de saber antes de tomar Karvea"
                 },
                 "text": {
                   "status": "additional",
-                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Não tome Dovato</p><ul><li><p>se tem alergia (hipersensibilidade) ao dolutegravir ou à lamivudina ou a qualquer outro componente deste medicamento (indicados na secção 6).</p></li><li><p>Se está a tomar um medicamento chamado fampridina (também conhecida como dalfampridina; utilizado na esclerose múltipla).</p></li></ul><p>→ Se acha que alguma destas situações se aplica a si, informe o seu médico.</p><p>Advertências e Precauções<br/>Algumas pessoas que tomam Dovato ou outras combinações terapêuticas para o VIH estão mais em risco de sofrer efeitos indesejáveis graves do que outras. Precisa de ter conhecimento dos riscos acrescidos:</p><ul><li><p>se tem doença moderada ou grave do fígado</p></li><li><p>se tiver antecedentes de doença do fígado, incluindo hepatite B ou C (se tiver infeção por hepatite B, não pare Dovato sem o conselho do seu médico, uma vez que a hepatite pode regressar)</p></li><li><p>se tem um problema dos rins → Fale com o seu médico antes de utilizar Dovato se alguma destas situações se aplica a si. Pode necessitar de acompanhamento extra, incluindo análises ao sangue, enquanto estiver a tomar o medicamento. Consulte a Secção 4 para mais informação.</p></li></ul><p>Reações alérgicas Dovato contém dolutegravir. O dolutegravir pode causar uma reação alérgica grave conhecida como reação de hipersensibilidade. Precisa de saber quais os sinais e sintomas importantes a que deve estar atento enquanto estiver a tomar Dovato. →Leia a informação “Reações alérgicas” na secção 4 deste folheto informativo.</p><p>Fique atento a sintomas importantes Algumas pessoas que tomam medicamentos para a infeção por VIH desenvolvem outras doenças, que podem ser graves. Estas incluem:</p><ul><li><p>sintomas de infeções e inflamação</p></li><li><p>dor nas articulações, rigidez e problemas dos ossos. Precisa de saber quais os sinais e sintomas importantes a que deve ficar atento enquanto estiver a tomar Dovato. → Leia a informação “Outros efeitos indesejáveis possíveis” na secção 4 deste folheto informativo.</p></li></ul><p>Crianças Este medicamento não se destina a crianças com menos de 12 anos de idade, porque não foi estudado nestes doentes.</p><p>Outros medicamentos e Dovato Informe o seu médico se estiver a tomar, tiver tomado recentemente, ou se vier a tomar outros medicamentos.</p><p>Não tome Dovato com o seguinte medicamento:</p><ul><li>fampridina (também conhecida como dalfampridina), utilizado na esclerose múltipla.</li></ul><p>Alguns medicamentos podem afetar a forma como Dovato funciona ou tornar mais provável que venha a ter efeitos indesejáveis. Dovato também pode afetar a forma como outros medicamentos funcionam.<br/>Informe o seu médico se estiver a tomar algum dos medicamentos da lista seguinte:</p><ul><li><p>metformina, para tratar diabetes</p></li><li><p>medicamentos chamados antiácidos, para tratar a indigestão e a azia. Não tome um antiácido durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado (ver também secção 3, “Como tomar Dovato”)</p></li><li><p>suplementos ou multivitamínicos de cálcio, ferro ou magnésio. Se tomar Dovato com comida, pode tomar suplementos ou multivitamínicos de cálcio, ferro ou magnésio ao mesmo tempo que Dovato. Se não tomar Dovato com comida, não tome um suplemento ou multivitamínico de cálcio, ferro ou magnésio durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado (ver também secção 3, “Como tomar Dovato”)</p></li><li><p>emtricitabina, etravirina, efavirenz, nevirapina ou tipranavir/ritonavir, para tratar a infeção por VIH</p></li><li><p>medicamentos contendo sorbitol (normalmente líquidos) e outros álcoois açucarados (como o xilitol, manitol, lactitol ou maltitol), se tomados regularmente</p></li><li><p>cladribina, usada para tratar a leucemia ou esclerose múltipla</p></li><li><p>rifampicina, para tratar a tuberculose (TB) e outras infeções bacterianas</p></li><li><p>fenitoína e fenobarbital, para tratar a epilepsia</p></li><li><p>oxcarbazepina e carbamazepina, para tratar a epilepsia e a doença bipolar</p></li><li><p>erva de S. João (Hypericum perforatum), um medicamento à base de plantas para tratar a depressão.</p></li></ul><p>→ Informe o seu médico ou farmacêutico se estiver a tomar algum destes medicamentos. O seu médico pode decidir ou ajustar a sua dose ou que necessita de exames de rotina extra.</p><p>Gravidez<br/>Se está grávida, se pensa estar grávida ou planeia engravidar:</p><p>→ Fale com o seu médico sobre os benefícios e riscos de tomar Dovato<br/>Tomar Dovato no momento da conceção ou durante as primeiras seis semanas de gestação pode aumentar o risco de uma malformação congénita denominada defeito do tubo neural, tal como espinha bífida (malformação da espinal medula).</p><p>Se tem potencial para engravidar enquanto toma Dovato: → Fale com o seu médico sobre a eventual necessidade de contraceção, tal como preservativo ou a pílula.<br/>Informe imediamente o seu médico se está grávida ou se planeia engravidar. O médico irá rever o seu tratamento. Não pare de tomar Dovato sem consultar o seu médico, uma vez que isso pode ser prejudicial para si e para a criança em gestação.</p><p>Amamentação A amamentação não é recomendada em mulheres que vivem com VIH, uma vez que a infeção peloVIH pode ser transmitida ao bebé através do leite materno.</p><p>Uma pequena quantidade dos componentes de Dovato pode também passar para o leite materno.</p><p>Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais rapidamente possível.</p><p>Condução de veículos e utilização de máquinas Dovato pode provocar-lhe tonturas e outros efeitos indesejáveis que o tornam menos alerta.</p><p>→ Não conduza ou utilize máquinas a não ser que tenha a certeza que o seu estado de alerta não é afetado.</p></div>"
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Não tome Karvea</strong></p><ul><li>se tem alergia ao irbesartan ou a qualquer outro componente deste medicamento (indicados na secção 6).</li><li>se tiver mais do que três meses de gravidez. (Também é preferível não tomar Karvea no início da gravidez - ver secção Gravidez</li><li>se tem diabetes ou função renal diminuída e está a ser tratado com um medicamento que contém aliscireno para diminuir a pressão arterial</li></ul><p><strong>Advertências e precauções</strong></p><p>Fale com o seu médico antes de tomar Karvea e se alguma das seguintes situações se aplicar a si:</p><ul><li>se tiver vómitos ou diarreia prolongados</li><li>se sofrer de problemas nos rins</li><li>se sofre de problemas do coração</li><li>se receber Karvea para doença nos rins diabética. Neste caso, o seu médico pode efetuar-lhe análises ao sangue com regularidade, especialmente para medir os níveis sanguíneos de potássio em caso de insuficiência dos rins se desenvolver baixos níveis de açúcar no sangue (os sintomas podem incluir sudação, fraqueza, fome, tonturas, tremores, dor de cabeça, rubor ou palidez, dormência, batimento cardíaco acelerado e palpitante), especialmente se estiver a ser tratado para a diabetes.</li><li>se vai ser submetido a uma operação (cirurgia) ou se lhe vão ser administrados anestésicos</li><li>se está a tomar algum dos seguintes medicamentos para tratar a pressão arterial elevada:<ul><li>um inibidor da ECA (por exemplo enalapril, lisinopril, ramipril), em particular se tiver problemas nos rins relacionados com diabetes.</li><li>aliscireno</li></ul></li></ul><p>O seu médico pode verificar a sua função renal, pressão arterial e a quantidade de eletrólitos (por exemplo, o potássio) no seu sangue em intervalos regulares.</p><p>Ver também a informação sob o título “Não tome Karvea”</p><p>Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. Karvea não está recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura (ver secção Gravidez).</p><p><strong>Crianças e adolescentes</strong></p><p>Este medicamento não deve ser utilizado em crianças e adolescentes uma vez que não foram ainda completamente estabelecidas a segurança e eficácia.</p><p><strong>Outros medicamentos e Karvea</strong></p><p>Informe o seu médico ou farmacêutico se estiver a tomar, tiver tomado ou se vier a tomar outros medicamentos. O seu médico pode precisar de alterar a dose e/ou tomar outras precauções se estiver a tomar aliscireno. Se está a tomar um inibidor da ECA ou aliscireno (ver também informações sob os títulos “Não tome Karvea” e “Advertências e precauções”).</p><p><strong>Poderá necessitar de fazer algumas verificações ao sangue caso tome:</strong></p><ul><li>suplementos de potássio</li><li>substitutos de sal contendo potássio</li><li>medicamentos poupadores de potássio (como sejam alguns diuréticos)</li><li>medicamentos contendo lítio</li><li>repaglinida (medicamento utilizado para baixar os níveis de açúcar no sangue)</li></ul><p>Se tomar alguns medicamentos para as dores, denominados anti-inflamatórios não-esteroides, o efeito do irbesartan poderá ser reduzido.</p><p><strong>Karvea com alimentos e bebidas</strong></p><p>Karvea pode ser tomado com ou sem alimentos.</p><p><strong>Gravidez e amamentação</strong></p><p><strong>Gravidez</strong></p><p>Deve informar o seu médico se pensa que está (ou pode vir a estar) grávida. O seu médico normalmente aconselha-la-á a interromper Karvea antes de engravidar ou assim que estiver grávida e a tomar outro medicamento em vez de Karvea. Karvea não está recomendado no início da gravidez e não pode ser tomado após o terceiro mês de gravidez, uma vez que pode ser gravemente prejudicial para o bebé se utilizado a partir desta altura.</p><p><strong>Amamentação</strong></p><p>Deverá informar o seu médico de que se encontra a amamentar ou que está prestes a iniciar o aleitamento. Karvea não está recomendado em mães a amamentar, especialmente se o bebé for recémnascido ou prematuro; nestes casos o seu médico poderá indicar outro tratamento.</p><p><strong>Condução de veículos e utilização de máquinas</strong></p><p>Não é provável que Karvea afete a sua capacidade de conduzir e usar máquinas. Contudo, ocasionalmente, podem ocorrer tonturas ou fadiga durante o tratamento da hipertensão. Se sentir estes efeitos, fale com o seu médico antes de tentar conduzir ou utilizar máquinas.</p><p><strong>Karvea contém lactose.</strong> Se foi informado pelo seu médico de que é intolerante a alguns açúcares (por exemplo, a lactose), deverá contactá-lo antes de tomar este medicamento.</p><p><strong>Karvea contém sódio.</strong> Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é praticamente &#39;isento de sódio&#39;.</p></div>"
                 }
               },
               {
-                "title": "3. Como tomar Dovato",
+                "title": "3. Como tomar Karvea",
                 "code": {
                   "coding": [
                     {
@@ -175,11 +175,11 @@
                       "system": "https://spor.ema.europa.eu/rmswi/"
                     }
                   ],
-                  "text": "3. Como tomar Dovato"
+                  "text": "3. Como tomar Karvea"
                 },
                 "text": {
                   "status": "additional",
-                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Tome este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.</p><ul><li>A dose recomendada de Dovato é de um comprimido uma vez por dia.</li></ul><p>Engula o comprimido com um pouco de líquido. Dovato pode ser tomado com ou sem alimentos.</p><p>Utilização em adolescentes Adolescentes com idades compreendidas entre os 12 e os 17 anos e que pesem pelo menos 40 kg podem tomar a dose de adulto de um comprimido uma vez por dia.</p><p>Medicamentos antiácidos Os antiácidos, para tratar a indigestão e a azia, podem impedir que Dovato seja absorvido pelo seu organismo e podem torná-lo menos eficaz. Não tome um antiácido durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado. Pode tomar outros medicamentos que reduzem a acidez como a ranitidina e o omeprazol ao mesmo tempo que Dovato.</p><p>→ Fale com o seu médico para mais aconselhamento sobre como tomar medicamentos antiácidos com Dovato.</p><p>Suplementos ou multivitamínicos de cálcio, ferro ou magnésio Os suplementos ou multivitamínicos de cálcio, ferro ou magnésio podem impedir que Dovato seja absorvido pelo seu organismo e torná-lo menos eficaz. Se tomar Dovato com comida, pode tomar suplementos ou multivitamínicos de cálcio, ferro ou magnésio ao mesmo tempo que Dovato. Se não tomar Dovato com comida, não tome um suplemento ou multivitamínico de cálcio, ferro ou magnésio durante as 6 horas anteriores a tomar Dovato ou por pelo menos 2 horas depois de o ter tomado.</p><p>→ Fale com o seu médico para mais aconselhamento sobre como tomar suplementos ou multivitamínicos de cálcio, ferro ou magnésio com Dovato.</p><p>Se tomar mais Dovato do que deveria Se tomar demasiados comprimidos de Dovato, contacte o seu médico ou farmacêutico para aconselhamento. Se possível, mostre-lhes a embalagem de Dovato.</p><p>Caso se tenha esquecido de tomar Dovato Se se esqueceu de tomar uma dose, tome-a assim que se lembrar. Porém, se a sua dose seguinte estiver prevista no prazo de 4 horas, não tome a dose esquecida e tome a próxima dose à hora habitual. Depois continue o seu tratamento como antes.</p><p>→ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.</p><p>Não pare de tomar Dovato sem o conselho do seu médico Tome Dovato durante o período de tempo recomendado pelo seu médico. Não pare o tratamento, a não ser por indicação do seu médico. Parar Dovato pode afetar a sua saúde e a eficácia de tratamentos futuros.</p><p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p></div>"
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Tomar este medicamento exatamente como indicado pelo seu médico. Fale com o seu médico ou farmacêutico se tiver dúvidas.</p><p><strong>Modo de administração</strong></p><p>Karvea destina-se à via oral. Engolir os comprimidos com uma quantidade suficiente de líquidos (por exemplo um copo com água). Pode tomar Karvea com ou sem alimentos. Tente tomar a dose diária sempre à mesma hora. É importante que continue a tomar Karvea até que o seu médico lhe dê outra indicação.</p><ul><li>Doentes com pressão arterial elevada</li></ul><p>A dose habitual é 150 mg uma vez ao dia. Em função da resposta da pressão arterial, a dose pode ser aumentada para 300 mg, uma vez ao dia.</p><ul><li>Doentes com pressão arterial elevada e diabetes do tipo 2 com doença nos rins</li></ul><p>Nos doentes com pressão arterial elevada e diabetes do tipo 2, a dose de manutenção preferível para o tratamento da doença renal associada é de 300 mg uma vez por dia.</p><p>O médico pode receitar uma dose mais baixa, sobretudo quando se inicia o tratamento em certos doentes, como sejam os que estão em hemodiálise ou os que têm mais de 75 anos.</p><p>O efeito hipotensor máximo deve obter-se às 4 a 6 semanas após o início do tratamento.</p><p><strong>Utilização em crianças e adolescentes</strong></p><p>Karvea não deve ser administrado a crianças com idade idade inferior a 18 anos. Se uma criança engolir alguns comprimidos, deve contactar o médico imediatamente.</p><p><strong>Se tomar mais Karvea do que deveria</strong></p><p>Se, acidentalmente, tomar demasiados comprimidos, contacte o médico imediatamente. Caso se tenha esquecido de tomar Karvea Se, acidentalmente, não tomar uma dose diária, tome a dose seguinte como planeado. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.</p><p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p></div>"
                 }
               },
               {
@@ -195,11 +195,11 @@
                 },
                 "text": {
                   "status": "additional",
-                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se manifestem em todas as pessoas por isso, é muito importante que fale com o seu médico sobre quaisquer alterações na sua saúde.</p><p>Reações alérgicas Dovato contém dolutegravir. O dolutegravir pode causar uma reação alérgica grave conhecida como reação de hipersensibilidade. Esta é uma reação pouco frequente (pode afetar até 1 em 100 pessoas) em pessoas a tomar dolutegravir. Se notar algum dos seguintes sintomas:</p><ul><li><p>erupção da pele</p></li><li><p>temperatura elevada (febre)</p></li><li><p>falta de energia (fadiga)</p></li><li><p>inchaço, por vezes da face ou boca (angioedema), causando dificuldade em respirar</p></li><li><p>dores musculares ou articulares. → Consulte um médico imediatamente. O seu médico pode decidir realizar testes para verificar o seu fígado, rins ou sangue, e pode dizer-lhe para parar de tomar Dovato.</p></li></ul><p>Efeitos indesejáveis muito frequentes<br/>Estes podem afetar mais de 1 em 10 pessoas:</p><ul><li><p>dor de cabeça</p></li><li><p>diarreia</p></li><li><p>sentir-se enjoado (náuseas).</p></li></ul><p>Efeitos indesejáveis frequentes<br/>Estes podem afetar até 1 em 10 pessoas:</p><ul><li><p>depressão (sentimentos de tristeza profunda e de falta de confiança)</p></li><li><p>erupção da pele</p></li><li><p>comichão (prurido)</p></li><li><p>estar enjoado (vómitos)</p></li><li><p>dor ou desconforto no estômago (dor abdominal)</p></li><li><p>ganho de peso</p></li><li><p>gases (flatulência)</p></li><li><p>tonturas</p></li><li><p>sentir-se sonolento</p></li><li><p>dificuldades em dormir (insónia)</p></li><li><p>sonhos anormais</p></li><li><p>falta de energia (fadiga)</p></li><li><p>queda de cabelo</p></li><li><p>ansiedade</p></li><li><p>dor nas articulações</p></li><li><p>dores musculares.</p></li></ul><p>Efeitos indesejáveis frequentes que podem aparecer nas análises ao sangue são:</p><ul><li><p>aumento nos níveis das enzimas do fígado (transaminases)</p></li><li><p>aumento no nível das enzimas produzidas nos músculos (creatinafosfoquinase).</p></li></ul><p>Efeitos indesejáveis pouco frequentes<br/>Estes podem afetar até 1 em 100 pessoas:</p><ul><li><p>inflamação do fígado (hepatite)</p></li><li><p>tentativa de suicídio (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde mental)</p></li><li><p>pensamentos suicidas (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde mental).</p></li><li><p>ataque de pânico</p></li></ul><p>Efeitos indesejáveis pouco frequentes que podem aparecer nas análises ao sangue são:</p><ul><li><p>uma diminuição no número de células sanguíneas envolvidas na coagulação (trombocitopenia)</p></li><li><p>uma contagem de glóbulos vermelhos baixa (anemia) ou uma contagem de glóbulos brancos baixa (neutropenia).</p></li></ul><p>Efeitos indesejáveis raros<br/>Estes podem afetar até 1 em 1000 pessoas:</p><ul><li><p>insuficiência hepática (pode incluir sinais de amarelecimento da pele e da parte branca dos olhos ou urina excecionalmente escura)</p></li><li><p>inchaço, por vezes da cara ou boca (angioedema), causando dificuldade em respirar</p></li><li><p>inflamação do pâncreas (pancreatite)</p></li><li><p>destruição do tecido muscular.</p></li><li><p>Suicídio (principalmente em doentes que já tiveram anteriormente depressão ou problemas de saúde mental).</p></li></ul><p>→ Informe o seu médico imediatamente se tiver quaisquer problemas de saúde mental (ver também outros problemas de saúde mental acima).</p><p>Efeitos indesejáveis raros que podem aparecer nas análises ao sangue são:</p><ul><li><p>aumento da bilirrubina (uma análise da função do fígado)</p></li><li><p>aumento numa enzima chamada amilase.</p></li></ul><p>Efeitos indesejáveis muito raros Estes podem afetar até 1 em 10.000 pessoas:</p><ul><li><p>acidose láctica (excesso de ácido láctico no sangue)</p></li><li><p>adormecimento, sensação de formigueiro na pele (alfinetes, agulhas)</p></li><li><p>sensação de fraqueza nos membros.</p></li></ul><p>Efeitos indesejáveis muito raros que podem aparecer nas análises ao sangue são:</p><ul><li>falência da medula óssea em produzir novos glóbulos vermelhos (aplasia pura dos glóbulos vermelhos).</li></ul><p>Outros efeitos indesejáveis possíveis</p><p>As pessoas a tomar terapêutica combinada para o VIH podem ter outros efeitos indesejáveis.</p><p>Sintomas de infeção e inflamação</p><p>Pessoas com infeção avançada por VIH ou SIDA têm sistemas imunitários debilitados e estão mais predispostas a desenvolver infeções graves (infeções oportunistas). Estas infeções podem ter estado “silenciosas” e não ter sido detetadas pelo sistema imunitário enfraquecido antes do tratamento ter sido iniciado. Depois de iniciar o tratamento, o sistema imunitário torna-se mais forte, e pode atacar as infeções, o que pode causar sintomas de infeção ou inflamação. Os sintomas normalmente incluem febre, e mais alguns dos seguintes:</p><ul><li><p>dor de cabeça</p></li><li><p>dor de estômago</p></li><li><p>dificuldade em respirar. Em casos raros, à medida que o sistema imunitário se torna mais forte, este pode também atacar os tecidos corporais saudáveis (perturbações autoimunes). Os sintomas de perturbações autoimunes podem desenvolver-se muitos meses após ter iniciado a toma do medicamento para tratar a sua infeção por VIH. Os sintomas podem incluir:</p></li><li><p>palpitações (batimento cardíaco rápido ou irregular) ou tremor</p></li><li><p>hiperatividade (inquietação e movimentos excessivos)</p></li><li><p>fraqueza que tem início nas mãos e nos pés e que se move em direção ao tronco.</p></li></ul><p>Se tiver quaisquer sintomas de infeção ou se notar qualquer um dos sintomas acima:</p><p>→ Informe o seu médico imediatamente. Não tome outros medicamentos para a infeção sem o conselho do seu médico.</p><p>Dor nas articulações, rigidez e problemas nos ossos Algumas pessoas a tomar terapêutica combinada para o VIH desenvolvem uma doença chamada osteonecrose. Com esta doença, partes do tecido ósseo são permanentemente afetadas, devido à diminuição do fornecimento de sangue ao osso. As pessoas podem ter maior probabilidade de ter esta doença:</p><ul><li><p>se estiverem a tomar terapêutica combinada há muito tempo</p></li><li><p>se também estiverem a tomar medicamentos anti-inflamatórios chamados corticosteroides</p></li><li><p>se consomem álcool</p></li><li><p>se os seus sistemas imunitários estiverem muito fracos</p></li><li><p>se tiverem excesso de peso.</p></li></ul><p>Os sinais de osteonecrose incluem:</p><ul><li><p>rigidez nas articulações</p></li><li><p>mal-estar e dores (especialmente na anca, joelho ou ombro)</p></li><li><p>dificuldade de movimentos. Se notar qualquer um destes sintomas:</p></li></ul><p>→ Informe o seu médico.</p><p>Peso, efeitos nos lípidos e glucose sanguíneos: Durante a terapêutica VIH poderá ocorrer um aumento do peso e dos níveis de lípidos e glucose sanguíneos. Isto está parcialmente relacionado com a recuperação da saúde e do estilo de vida e, por vezes, com os próprios medicamentos para a infeção VIH. O seu medico avaliará estas alterações.</p><p>Comunicação de efeitos indesejáveis Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p></div>"
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Como todos os medicamentos, este medicamento pode causar efeitos secundários, embora estes não se manifestem em todas as pessoas. Alguns destes efeitos podem ser graves e requerer cuidados médicos.</p><p>Tal como acontece com medicamentos semelhantes, em doentes a tomar irbesartan foram notificados casos raros de reações alérgicas na pele (erupção na pele, erupção na pele com comichão), assim como inchaço localizado da face, lábios e/ou língua. Se tiver algum destes sintomas, ou se tiver dificuldade em respirar, <strong>pare de tomar Karvea e contacte o médico imediatamente.</strong></p><p>A frequência dos efeitos adversos listados abaixo é definida utilizando a seguinte convenção:</p><p>Muito frequentes: podem afetar mais de 1 em 10 pessoas</p><p>Frequentes: podem afetar até 1 em 10 pessoas</p><p>Pouco frequentes: podem afetar até 1 em 100 pessoas</p><p>Os efeitos secundários notificados em estudos clínicos para os doentes tratados com Karvea foram:</p><ul><li>Muito frequentes (podem afetar mais de 1 em 10 pessoas): se tiver pressão arterial elevada e diabetes do tipo 2 com doença nos rins, as análises ao sangue podem mostrar níveis de potássio aumentados.</li><li>Frequentes (podem afetar até 1 em 10 pessoas): tonturas, mal estar/vómitos, fadiga e as análises ao sangue podem mostrar níveis de uma enzima que avalia a função muscular e cardíaca (enzima creatina cinase) aumentados. Em doentes com pressão arterial elevada e diabetes do tipo 2 com doença nos rins foram também notificados tonturas quando se passa da posição deitada ou sentada para a posição de pé, pressão arterial baixa quando se passa da posição deitada ou sentada para a posição de pé, dor nas articulações ou músculos e níveis de uma proteína nos glóbulos vermelhos (hemoglobina) diminuídos.</li><li>Pouco frequentes (podem afetar até 1 em 100 pessoas): ritmo cardíaco rápido, rubor (vermelhidão), tosse, diarreia, indigestão/pirose (azia), disfunção sexual (problemas com o desempenho sexual) e dor torácica.</li></ul><p>Alguns efeitos indesejáveis foram notificados desde a comercialização de Karvea. Os efeitos indesejáveis em que a frequência não é conhecida são: sensação de girar, cefaleias (dores de cabeça), alteração do paladar, zumbidos, cãimbras musculares, dor nas articulações e músculos, redução do número de glóbulos vermelhos (anemia - os sintomas podem incluir cansaço, dores de cabeça, falta de ar durante a prática de exercício físico, tonturas e aparência pálida), redução do número de plaquetas, função hepática (do fígado) alterada, níveis sanguíneos de potássio aumentados, compromisso da função dos rins e inflamação dos vasos sanguíneos pequenos afetando principalmente a pele (uma situação conhecida como vasculite leucocitoclásica) , reacções alérgicas graves (choque anafiláctico) e baixos níveis de açúcar no sangue. Foram também notificados casos pouco frequentes de icterícia (amarelecimento da pele e/ou da zona branca dos olhos).</p><p><strong>Comunicação de efeitos secundários</strong></p><p>Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p></div>"
                 }
               },
               {
-                "title": "5. Como conservar Dovato",
+                "title": "5. Como conservar Karvea",
                 "code": {
                   "coding": [
                     {
@@ -207,11 +207,11 @@
                       "system": "https://spor.ema.europa.eu/rmswi/"
                     }
                   ],
-                  "text": "5. Como conservar Dovato"
+                  "text": "5. Como conservar Karvea"
                 },
                 "text": {
                   "status": "additional",
-                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Manter este medicamento fora da vista e do alcance das crianças.</p><p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no frasco ou fitas contentoras blister, após EXP. O prazo de validade corresponde ao último dia do mês indicado.</p><p>Este medicamento não necessita de quaisquer condições especiais de conservação.</p><p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p></div>"
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Manter este medicamento fora da vista e do alcance das crianças.</p><p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no blister, após VAL. O prazo de validade corresponde ao último dia do mês indicado.</p><p>Não conservar acima de 30ºC.</p><p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a proteger o ambiente.</p></div>"
                 }
               },
               {
@@ -227,7 +227,7 @@
                 },
                 "text": {
                   "status": "additional",
-                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Qual a composição de Dovato</p><ul><li><p>As substâncias ativas são dolutegravir e lamivudina. Cada comprimido contém dolutegravir sob a forma de sódio equivalente a 50 mg de dolutegravir e 300 mg de lamivudina.</p></li><li><p>Os outros componentes são celulose microcristalina, glicolato de amido de milho, estearato de magnésio, manitol (E421), povidona (K29/32), fumarato sódico de estearilo, hipromelose (E464), macrogol, dióxido de titânio (E171).</p></li><li><p>Este medicamento contém menos de 1 mmol (23 mg) de sódio por comprimido, ou seja, é praticamente “isento de sódio”.</p></li></ul><p>Qual o aspeto de Dovato e conteúdo da embalagem</p><p>Dovato comprimidos revestidos por película são ovais, biconvexos, brancos gravados com “SV 137” numa das faces.</p><p>Os comprimidos revestidos por película são disponibilizados em frascos com fecho resistente à abertura por crianças ou em fitas contentoras blister resistentes à abertura por crianças.</p><p>Embalagem frasco Cada frasco contém 30 comprimidos revestidos por película.</p><p>Também estão disponíveis embalagens múltiplas contendo 90 comprimidos revestidos por película (3 embalagens de 30 comprimidos revestidos por película em frasco).</p><p>Embalagem blister<br/>Cada embalagem blister contém 30 comprimidos revestidos por película consistindo em 4 fitas contentoras blister contendo 7 comprimidos revestidos por película e 1 fita contentora blister contendo 2 comprimidos revestidos por película.</p><p>Também estão disponíveis embalagens múltiplas contendo 90 comprimidos revestidos por película (3 embalagens blister de 30 comprimidos revestidos por película).</p><p>É possível que não sejam comercializadas todas as apresentações no seu país.</p><p>Titular da Autorização de Introdução no Mercado e Fabricante ViiV Healthcare BV Van Asch van Wijckstraat 55H 3811 LP Amersfoort Holanda</p><p>Fabricante Glaxo Wellcome, S.A.<br/>Avda. Extremadura, 3 09400 Aranda De Duero Burgos Espanha</p><p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da Autorização de Introdução no Mercado:</p><p>België/Belgique/Belgien ViiV Healthcare sprl/bvba<br/>Tél/Tel: + 32 (0) 10 85 65 Lietuva ViiV Healthcare BV Tel: + 370 80000 България ViiV Healthcare BV Teл.: + 359 80018 Luxembourg/Luxemburg ViiV Healthcare sprl/bvba<br/>Belgique/Belgien Tél/Tel: + 32 (0) 10 85 65<br/>Česká republika GlaxoSmithKline, s.r.o. Tel: + 420 222 001 cz.info@gsk.com</p><p>Magyarország ViiV Healthcare BV Tel.: + 36 80088 Danmark GlaxoSmithKline Pharma A/S Tlf: + 45 36 35 91 dk-info@gsk.com</p><p>Malta ViiV Healthcare BV Tel: + 356 80065 Deutschland ViiV Healthcare GmbH<br/>Tel.: + 49 (0)89 203 0038-10<br/>viiv.med.info@viivhealthcare.com</p><p>Nederland ViiV Healthcare BV<br/>Tel: + 31 (0)33 2081</p><p>Eesti ViiV Healthcare BV Tel: + 372 8002estonia@gsk.com</p><p>Norge GlaxoSmithKline AS Tlf: + 47 22 70 20</p><p>Ελλάδα GlaxoSmithKline Μονοπρόσωπη A.E.B.E. Τηλ: + 30 210 68 82</p><p>Österreich GlaxoSmithKline Pharma GmbH Tel: + 43 (0)1 97075 0 at.info@gsk.com</p><p>España Laboratorios ViiV Healthcare, S.L.<br/>Tel: + 34 900 923 501<br/>es-ci@viivhealthcare.com</p><p>Polska GSK Services Sp. z o.o. Tel.: + 48 (0)22 576 9</p><p>France ViiV Healthcare SAS<br/>Tél.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com</p><p>Portugal VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br/>Tel: + 351 21 094 08 01<br/>viiv.fi.pt@viivhealthcare.com</p><p>Hrvatska ViiV Healthcare BV Tel: + 385 800787 România ViiV Healthcare BV Tel: + 40800672 Ireland GlaxoSmithKline (Ireland) Limited Tel: + 353 (0)1 4955 Slovenija ViiV Healthcare BV Tel: + 386 80688</p><p>Ísland Vistor hf. Sími: +354 535 7 Slovenská republika ViiV Healthcare BV Tel: + 421 800500</p><p>Italia ViiV Healthcare S.r.l<br/>Tel: + 39 (0)45 7741 Suomi/Finland GlaxoSmithKline Oy Puh/Tel: + 358 (0)10 30 30</p><p>Κύπρος ViiV Healthcare BV Τηλ: + 357 80070</p><p>Sverige GlaxoSmithKline AB Tel: + 46 (0)8 638 93 info.produkt@gsk.com</p><p>Latvija ViiV Healthcare BV Tel: + 371 80205</p><p>United Kingdom (Northern Ireland) ViiV Healthcare BV Tel: + 44 (0)800 221customercontactuk@gsk.com</p><p>Este folheto foi revisto pela última vez em {mês de AAAA}.</p><p>Outras fontes de informação</p><p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p></div>"
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Qual a composição de Karvea</strong></p><ul><li>A substância ativa é o irbesartan. Cada comprimido de Karvea 300 mg contém 300 mg de irbesartan.</li><li>Os outros componentes são celulose microcristalina, croscarmelose sódica, lactose monohidratada, estearato de magnésio, sílica coloidal hidratada, amido de milho pré-gelificado e poloxamero 188. Por favor ver a secção 2 “Karvea contém lactose”.</li></ul><p><strong>Qual o aspeto de Karvea e conteúdo da embalagem</strong></p><p>Os comprimidos de Karvea 300 mg são de cor branca a esbranquiçada, biconvexos, de forma oval, com um coração marcado numa das faces e o número 2773 gravado na outra face.</p><p>Os comprimidos de Karvea a 300 mg são fornecidos em embalagens de 14, 28, 56 ou 98 comprimidos acondicionados em blister. Estão também disponíveis, para uso hospitalar, embalagens de 56 x 1 comprimido em blister para dose unitária.</p><p>É possível que não sejam comercializadas todas as apresentações.</p><p><strong>Titular da Autorização de Introdução no Mercado</strong> Sanofi Winthrop Industrie 82 avenue Raspail 94250 Gentilly França</p><p><strong>Fabricante</strong></p><p>SANOFI WINTHROP INDUSTRIE 1, rue de la Vierge Ambarès &amp; Lagrave F-33565 Carbon Blanc Cedex - França</p><p>SANOFI WINTHROP INDUSTRIE 30-36 Avenue Gustave Eiffel, BP 7166 F-37071 Tours Cedex 2 - França</p><p>Para quaisquer informações sobre este medicamento, queira contactar o representante local do Titular da Autorização de Introdução no Mercado.</p><p><strong>België/Belgique/Belgien</strong> Sanofi Belgium Tél/Tel: +32 (0)2 710 54 00</p><p><strong>България</strong> Swixx Biopharma EOOD Тел.: +359 (0)2 4942 480</p><p><strong>Lietuva</strong> Swixx Biopharma UAB Tel: +370 5 236 91 40</p><p><strong>Luxembourg/Luxemburg</strong> Sanofi Belgium Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien)</p><p><strong>Česká republika</strong> sanofi-aventis, s.r.o. Tel: +420 233 086 111</p><p><strong>Magyarország</strong> SANOFI-AVENTIS Zrt. Tel.: +36 1 505 0050</p><p><strong>Danmark</strong> Sanofi A/S Tlf: +45 45 16 70 00</p><p><strong>Malta</strong> Sanofi S.r.l.. Tel: +39 02 39394275</p><p><strong>Deutschland</strong> Sanofi-Aventis Deutschland GmbH Tel: 0800 52 52 010 Tel. aus dem Ausland: +49 69 305 21 131</p><p><strong>Nederland</strong> Sanofi B.V. Tel: +31 20 245 4000</p><p><strong>Eesti</strong> Swixx Biopharma OÜ Tel: +372 640 10 30</p><p><strong>Norge</strong> sanofi-aventis Norge AS Tlf: +47 67 10 71 00</p><p><strong>Ελλάδα</strong> Sanofi-Aventis Μονοπρόσωπη AEBE Τηλ: +30 210 900 16 00</p><p><strong>Österreich</strong> sanofi-aventis GmbH Tel: +43 1 80 185 – 0</p><p><strong>España</strong> sanofi-aventis, S.A. Tel: +34 93 485 94 00</p><p><strong>Polska</strong> sanofi-aventis Sp. z o.o. Tel.: +48 22 280 00 00</p><p><strong>France</strong> Sanofi Winthrop Industrie Tél: 0 800 222 555 Appel depuis l’étranger : +33 1 57 63 23 23</p><p><strong>Portugal</strong> Sanofi - Produtos Farmacêuticos, Lda Tel: +351 21 35 89 400</p><p><strong>Hrvatska</strong> Swixx Biopharma d.o.o. Tel: +385 1 2078 500</p><p><strong>Ireland</strong> sanofi-aventis Ireland Ltd. Tel: +353 (0) 1 403 56 00</p><p><strong>România</strong> Sanofi Romania SRL Tel: +40 (0) 21 317 31 36</p><p><strong>Slovenija</strong> Swixx Biopharma d.o.o. Tel: +386 1 235 51 00</p><p><strong>Ísland</strong> Vistor hf. Sími: +354 535 7000</p><p><strong>Slovenská republika</strong> Swixx Biopharma s.r.o. Tel: +421 2 208 33 600</p><p><strong>Italia</strong> Sanofi S.r.l.Tel: 800536389</p><p><strong>Suomi/Finland</strong> Sanofi Oy Puh/Tel: +358 (0) 201 200 300</p><p><strong>Κύπρος</strong> C.A. Papaellinas Ltd. Τηλ: +357 22 741741</p><p><strong>Sverige</strong> Sanofi AB Tel: +46 (0)8 634 50 00</p><p><strong>Latvija</strong> Swixx Biopharma SIA Tel: +371 6 616 47 50</p><p><strong>United Kingdom (Northern Ireland)</strong> sanofi-aventis Ireland Ltd. T/A SANOFI Tel: +44 (0) 800 035 2525</p><p><strong>Este folheto foi revisto pela última vez em</strong></p><p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência Europeia de Medicamentos <a href=\"http://www.ema.europa.eu/\">http://www.ema.europa.eu/</a></p></div>"
                 }
               }
             ]
@@ -236,10 +236,105 @@
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-dolutegravirsodium",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-a40c2367ed3c1c715eacd432105752a0",
+      "resource": {
+        "resourceType": "ClinicalUseDefinition",
+        "id": "cud-a40c2367ed3c1c715eacd432105752a0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+          ]
+        },
+        "type": "contraindication",
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          }
+        ],
+        "contraindication": {
+          "diseaseSymptomProcedure": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "10012601",
+                  "system": "http://terminology.hl7.org/CodeSystem/mdr",
+                  "display": "Diabetis Mellitus"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-585e364c14debe29f6c6b564138aa400",
+      "resource": {
+        "resourceType": "ClinicalUseDefinition",
+        "id": "cud-585e364c14debe29f6c6b564138aa400",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"
+          ]
+        },
+        "type": "indication",
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          }
+        ],
+        "indication": {
+          "diseaseSymptomProcedure": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "10020772",
+                  "system": "http://terminology.hl7.org/CodeSystem/mdr",
+                  "display": "Hypertension"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ClinicalUseDefinition/cud-4fce9d5258f70f7d605059f97c24efa8",
+      "resource": {
+        "resourceType": "ClinicalUseDefinition",
+        "id": "cud-4fce9d5258f70f7d605059f97c24efa8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"
+          ]
+        },
+        "type": "interaction",
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          }
+        ],
+        "interaction": {
+          "interactant": [
+            {
+              "itemCodeableConcept": {
+                "coding": [
+                  {
+                    "code": "YL5FZ2Y5U1",
+                    "system": "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+                    "display": "METHOTREXATE"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-hypromellose",
       "resource": {
         "resourceType": "Ingredient",
-        "id": "ingredient-for-dovato-dolutegravirsodium",
+        "id": "ingredient-for-karvea-hypromellose",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
@@ -247,15 +342,15 @@
         },
         "identifier": {
           "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-          "value": "1Q1V9V5WYQ",
+          "value": "3NXW29V3WO",
           "use": "official"
         },
         "role": {
           "coding": [
             {
-              "code": "100000072072",
+              "code": "100000072082",
               "system": "https://spor.ema.europa.eu/rmswi",
-              "display": "Active"
+              "display": "Excipient"
             }
           ]
         },
@@ -265,9 +360,264 @@
             "concept": {
               "coding": [
                 {
-                  "code": "1Q1V9V5WYQ",
+                  "code": "3NXW29V3WO",
                   "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-                  "display": "DOLUTEGRAVIR SODIUM"
+                  "display": "Hypromellose"
+                }
+              ]
+            }
+          }
+        },
+        "for": [
+          {
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+          },
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          },
+          {
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-macrogol3000",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "ingredient-for-karvea-macrogol3000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+          ]
+        },
+        "identifier": {
+          "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "value": "SA1B764746",
+          "use": "official"
+        },
+        "role": {
+          "coding": [
+            {
+              "code": "100000072082",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Excipient"
+            }
+          ]
+        },
+        "status": "active",
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "SA1B764746",
+                  "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                  "display": "Macrogol 3000"
+                }
+              ]
+            }
+          }
+        },
+        "for": [
+          {
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+          },
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          },
+          {
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-lactosemonohydrate",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "ingredient-for-karvea-lactosemonohydrate",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+          ]
+        },
+        "identifier": {
+          "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "value": "EWQ57Q8I5X",
+          "use": "official"
+        },
+        "role": {
+          "coding": [
+            {
+              "code": "100000072082",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Excipient"
+            }
+          ]
+        },
+        "status": "active",
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "EWQ57Q8I5X",
+                  "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                  "display": "Lactose Monohydrate"
+                }
+              ]
+            }
+          }
+        },
+        "for": [
+          {
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+          },
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          },
+          {
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-silicondioxide",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "ingredient-for-karvea-silicondioxide",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+          ]
+        },
+        "identifier": {
+          "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "value": "ETJ7Z6XBU4",
+          "use": "official"
+        },
+        "role": {
+          "coding": [
+            {
+              "code": "100000072082",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Excipient"
+            }
+          ]
+        },
+        "status": "active",
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "ETJ7Z6XBU4",
+                  "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                  "display": "Silicon dioxide"
+                }
+              ]
+            }
+          }
+        },
+        "for": [
+          {
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+          },
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          },
+          {
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-titaniumdioxide",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "ingredient-for-karvea-titaniumdioxide",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+          ]
+        },
+        "identifier": {
+          "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "value": "15FIX9V2JP",
+          "use": "official"
+        },
+        "role": {
+          "coding": [
+            {
+              "code": "100000072082",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Excipient"
+            }
+          ]
+        },
+        "status": "active",
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "15FIX9V2JP",
+                  "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                  "display": "Titanium Dioxide"
+                }
+              ]
+            }
+          }
+        },
+        "for": [
+          {
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+          },
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          },
+          {
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-irbesartan",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "ingredient-for-karvea-irbesartan",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+          ]
+        },
+        "identifier": {
+          "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+          "value": "J0E2756Z7N",
+          "use": "official"
+        },
+        "role": {
+          "coding": [
+            {
+              "code": "100000072072",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "active"
+            }
+          ]
+        },
+        "status": "active",
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "J0E2756Z7N",
+                  "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
+                  "display": "irbesartan"
                 }
               ]
             }
@@ -275,7 +625,7 @@
           "strength": [
             {
               "presentationQuantity": {
-                "value": 50,
+                "value": 75,
                 "code": "mg",
                 "system": "http://unitsofmeasure.org"
               },
@@ -293,22 +643,22 @@
         },
         "for": [
           {
-            "reference": "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
           },
           {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
           },
           {
-            "reference": "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
           }
         ]
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-lamivudine",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-croscarmellosesodium",
       "resource": {
         "resourceType": "Ingredient",
-        "id": "ingredient-for-dovato-lamivudine",
+        "id": "ingredient-for-karvea-croscarmellosesodium",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
@@ -316,15 +666,15 @@
         },
         "identifier": {
           "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-          "value": "2T8Q726O95",
+          "value": "M28OL1HH48",
           "use": "official"
         },
         "role": {
           "coding": [
             {
-              "code": "100000072072",
+              "code": "100000072082",
               "system": "https://spor.ema.europa.eu/rmswi",
-              "display": "Active"
+              "display": "Excipient"
             }
           ]
         },
@@ -334,50 +684,32 @@
             "concept": {
               "coding": [
                 {
-                  "code": "2T8Q726O95",
+                  "code": "M28OL1HH48",
                   "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-                  "display": "lamivudine"
+                  "display": "Croscarmellose sodium"
                 }
               ]
             }
-          },
-          "strength": [
-            {
-              "presentationQuantity": {
-                "value": 300,
-                "code": "mg",
-                "system": "http://unitsofmeasure.org"
-              },
-              "basis": {
-                "coding": [
-                  {
-                    "code": "ACTIB",
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
-                    "display": "active ingredient - basis of strength"
-                  }
-                ]
-              }
-            }
-          ]
+          }
         },
         "for": [
           {
-            "reference": "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
           },
           {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
           },
           {
-            "reference": "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
           }
         ]
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-microcrystallinecellulose",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-microcrystallinecellulose",
       "resource": {
         "resourceType": "Ingredient",
-        "id": "ingredient-for-dovato-microcrystallinecellulose",
+        "id": "ingredient-for-karvea-microcrystallinecellulose",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
@@ -405,7 +737,7 @@
                 {
                   "code": "OP1R32D61U",
                   "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-                  "display": "microcrystalline cellulose"
+                  "display": "Microcrystalline cellulose"
                 }
               ]
             }
@@ -413,73 +745,22 @@
         },
         "for": [
           {
-            "reference": "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
           },
           {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
           },
           {
-            "reference": "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
           }
         ]
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-sodiumstarchglycolate",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-magnesiumstearate",
       "resource": {
         "resourceType": "Ingredient",
-        "id": "ingredient-for-dovato-sodiumstarchglycolate",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
-          ]
-        },
-        "identifier": {
-          "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-          "value": "H8AV0SQX4D",
-          "use": "official"
-        },
-        "role": {
-          "coding": [
-            {
-              "code": "100000072082",
-              "system": "https://spor.ema.europa.eu/rmswi",
-              "display": "Excipient"
-            }
-          ]
-        },
-        "status": "active",
-        "substance": {
-          "code": {
-            "concept": {
-              "coding": [
-                {
-                  "code": "H8AV0SQX4D",
-                  "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-                  "display": "sodium starch glycolate"
-                }
-              ]
-            }
-          }
-        },
-        "for": [
-          {
-            "reference": "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
-          },
-          {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
-          },
-          {
-            "reference": "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-magnesiumstearate",
-      "resource": {
-        "resourceType": "Ingredient",
-        "id": "ingredient-for-dovato-magnesiumstearate",
+        "id": "ingredient-for-karvea-magnesiumstearate",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
@@ -507,7 +788,7 @@
                 {
                   "code": "70097M6I30",
                   "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-                  "display": "magnesium stearate"
+                  "display": "Magnesium stearate"
                 }
               ]
             }
@@ -515,22 +796,22 @@
         },
         "for": [
           {
-            "reference": "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
           },
           {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
           },
           {
-            "reference": "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
           }
         ]
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-dovato-mannitol",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Ingredient/ingredient-for-karvea-carnaubawax",
       "resource": {
         "resourceType": "Ingredient",
-        "id": "ingredient-for-dovato-mannitol",
+        "id": "ingredient-for-karvea-carnaubawax",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
@@ -538,7 +819,7 @@
         },
         "identifier": {
           "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-          "value": "3OWL53L36A",
+          "value": "R12CBM0EIZ",
           "use": "official"
         },
         "role": {
@@ -556,9 +837,9 @@
             "concept": {
               "coding": [
                 {
-                  "code": "3OWL53L36A",
+                  "code": "R12CBM0EIZ",
                   "system": "https://gsrs.ncats.nih.gov/ginas/app/beta",
-                  "display": "mannitol"
+                  "display": "Carnauba wax"
                 }
               ]
             }
@@ -566,22 +847,22 @@
         },
         "for": [
           {
-            "reference": "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
           },
           {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
           },
           {
-            "reference": "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee"
           }
         ]
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-dolutegravirsodium",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-irbesartan",
       "resource": {
         "resourceType": "SubstanceDefinition",
-        "id": "substance-dolutegravirsodium",
+        "id": "substance-irbesartan",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"
@@ -590,7 +871,7 @@
         "identifier": [
           {
             "system": "https://gsrs.ncats.nih.gov/ginas/app/beta/",
-            "value": "1Q1V9V5WYQ",
+            "value": "J0E2756Z7N",
             "use": "official"
           }
         ],
@@ -603,9 +884,10 @@
             }
           ]
         },
+        "description": "White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.",
         "manufacturer": [
           {
-            "reference": "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+            "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
           }
         ],
         "molecularWeight": [
@@ -614,16 +896,16 @@
               "text": "exact"
             },
             "amount": {
-              "value": 441.36
+              "value": 428.53
             }
           }
         ],
         "structure": {
-          "molecularFormula": "C20H18F2N305.Na"
+          "molecularFormula": "C25H28N6O"
         },
         "name": [
           {
-            "name": "(4R,12.ALPHA.S)-N-((2,4-DIFLUOROPHENYL)METHYL)-7-HYDROXY-4-METHYL-6,8-DIOXO-3,4,6,8,12,12.ALPHA.-HEXAHYDRO-2H-PYRIDO(1',2':4,5)PYRAZINO(2,1-.BETA.)(1,3)OXAZINE-9-CARBOXAMIDE",
+            "name": "(+)-6-methyleneandrosta-1,4-diene-3,17-dione",
             "type": {
               "coding": [
                 {
@@ -638,70 +920,10 @@
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/SubstanceDefinition/substance-lamivudine",
-      "resource": {
-        "resourceType": "SubstanceDefinition",
-        "id": "substance-lamivudine",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"
-          ]
-        },
-        "identifier": [
-          {
-            "system": "https://gsrs.ncats.nih.gov/ginas/app/beta/",
-            "value": "2T8Q726O95",
-            "use": "official"
-          }
-        ],
-        "version": "1",
-        "status": {
-          "coding": [
-            {
-              "code": "active",
-              "system": "http://hl7.org/fhir/publication-status"
-            }
-          ]
-        },
-        "manufacturer": [
-          {
-            "reference": "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
-          }
-        ],
-        "molecularWeight": [
-          {
-            "type": {
-              "text": "exact"
-            },
-            "amount": {
-              "value": 229.26
-            }
-          }
-        ],
-        "structure": {
-          "molecularFormula": "C8H11N303S"
-        },
-        "name": [
-          {
-            "name": "(-)-1-((2R,5S)-2-(HYDROXYMETHYL)-1,3-OXATHIOLAN-5-YL)CYTOSINE",
-            "type": {
-              "coding": [
-                {
-                  "code": "x",
-                  "system": "https://gsrs.ncats.nih.gov/ginas/app/beta/",
-                  "display": "Chemical Name"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee",
       "resource": {
         "resourceType": "AdministrableProductDefinition",
-        "id": "ap-49178f16170ee8a6bc2a4361c1748d5f",
+        "id": "ap-dcaa4d32aa6658a8df831551503e52ee",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"
@@ -710,13 +932,13 @@
         "identifier": [
           {
             "system": "https://spor.ema.europa.eu/pmswi",
-            "value": "123456"
+            "value": "EU/1/97/049/001"
           }
         ],
         "status": "active",
         "formOf": [
           {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
           }
         ],
         "administrableDoseForm": {
@@ -739,7 +961,7 @@
         },
         "producedFrom": [
           {
-            "reference": "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+            "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
           }
         ],
         "routeOfAdministration": [
@@ -771,10 +993,10 @@
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f0",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee0",
       "resource": {
         "resourceType": "RegulatedAuthorization",
-        "id": "authorization49178f16170ee8a6bc2a4361c1748d5f0",
+        "id": "authorizationdcaa4d32aa6658a8df831551503e52ee0",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
@@ -783,13 +1005,13 @@
         "identifier": [
           {
             "system": "https://spor.ema.europa.eu/pmswi",
-            "value": "EU/1/19/1370/001",
+            "value": "EU/1/97/049/010",
             "use": "official"
           }
         ],
         "subject": [
           {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+            "reference": "PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d"
           }
         ],
         "type": {
@@ -810,66 +1032,155 @@
             }
           ]
         },
-        "statusDate": "2019-07-01T13:28:17Z",
+        "statusDate": "2015-02-07T13:28:17Z",
         "holder": {
-          "reference": "Organization/mah-31ff1af739c7dcf77386a86f8dd83d29"
-        },
-        "regulator": {
-          "reference": "Organization/mra-7c9b97127f73ff3605a10eb1c2cc24d1"
+          "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
         }
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Organization/man-173fde4cb6b1018cb7ec8ab708d3961c",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee1",
       "resource": {
-        "resourceType": "Organization",
-        "id": "man-173fde4cb6b1018cb7ec8ab708d3961c",
+        "resourceType": "RegulatedAuthorization",
+        "id": "authorizationdcaa4d32aa6658a8df831551503e52ee1",
         "meta": {
           "profile": [
-            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
           ]
         },
-        "contact": [
-          {
-            "address": {
-              "use": "work",
-              "text": "Avda. Extremadura 3, 09400 Aranda De Duero Aranda De Duero ES",
-              "type": "physical",
-              "line": [
-                "Avda. Extremadura 3, 09400 Aranda De Duero"
-              ],
-              "city": "Aranda De Duero",
-              "country": "ES"
-            }
-          }
-        ],
         "identifier": [
           {
-            "system": "https://spor.ema.europa.eu/omswi",
-            "value": "ORG-100004538",
+            "system": "https://spor.ema.europa.eu/pmswi",
+            "value": "EU/1/97/049/001",
             "use": "official"
           }
         ],
-        "active": true,
-        "type": [
+        "subject": [
           {
-            "coding": [
-              {
-                "code": "220000000033",
-                "system": "https://spor.ema.europa.eu/rmswi",
-                "display": "Manufacturer"
-              }
-            ]
+            "reference": "PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5"
           }
         ],
-        "name": "GLAXO WELLCOME, S.A."
+        "type": {
+          "coding": [
+            {
+              "code": "220000000061",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://hl7.org/fhir/publication-status",
+              "display": "Active"
+            }
+          ]
+        },
+        "statusDate": "2015-02-07T13:28:17Z",
+        "holder": {
+          "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+        }
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-31ff1af739c7dcf77386a86f8dd83d29",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee2",
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "authorizationdcaa4d32aa6658a8df831551503e52ee2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/pmswi",
+            "value": "EU/1/97/049/002",
+            "use": "official"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "code": "220000000061",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://hl7.org/fhir/publication-status",
+              "display": "Active"
+            }
+          ]
+        },
+        "statusDate": "2015-02-07T13:28:17Z",
+        "holder": {
+          "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee3",
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "authorizationdcaa4d32aa6658a8df831551503e52ee3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/pmswi",
+            "value": "EU/1/97/049/003",
+            "use": "official"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "code": "220000000061",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://hl7.org/fhir/publication-status",
+              "display": "Active"
+            }
+          ]
+        },
+        "statusDate": "2015-02-07T13:28:17Z",
+        "holder": {
+          "reference": "Organization/mah-511671db37e83e520b00f8a0d817dc96"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Organization/mah-511671db37e83e520b00f8a0d817dc96",
       "resource": {
         "resourceType": "Organization",
-        "id": "mah-31ff1af739c7dcf77386a86f8dd83d29",
+        "id": "mah-511671db37e83e520b00f8a0d817dc96",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"
@@ -879,20 +1190,21 @@
           {
             "address": {
               "use": "work",
-              "text": "Van Asch van Wijckstraat 55H Amersfoort NL",
+              "text": "82 avenue Raspail Gentilly FR",
               "type": "physical",
               "line": [
-                "Van Asch van Wijckstraat 55H"
+                "82 avenue Raspail"
               ],
-              "city": "Amersfoort",
-              "country": "NL"
+              "city": "Gentilly",
+              "country": "FR",
+              "postalCode": "94250"
             }
           }
         ],
         "identifier": [
           {
             "system": "https://spor.ema.europa.eu/omswi",
-            "value": "ORG-100012958",
+            "value": "ORG-100011564",
             "use": "official"
           }
         ],
@@ -908,14 +1220,14 @@
             ]
           }
         ],
-        "name": "ViiV Healthcare BV"
+        "name": "Sanofi Winthrop Industrie\t"
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Organization/mra-7c9b97127f73ff3605a10eb1c2cc24d1",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/Organization/man-4bb7a752921434fd5f9921b5b9473eda",
       "resource": {
         "resourceType": "Organization",
-        "id": "mra-7c9b97127f73ff3605a10eb1c2cc24d1",
+        "id": "man-4bb7a752921434fd5f9921b5b9473eda",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"
@@ -925,21 +1237,21 @@
           {
             "address": {
               "use": "work",
-              "text": "Carretera De Martorell 41 61, Poligono Industrial Nord-Est Amsterdam NL",
+              "text": "1, rue de la Vierge Ambarès & Lagrave FR",
               "type": "physical",
               "line": [
-                "Carretera De Martorell 41 61, Poligono Industrial Nord-Est"
+                "1, rue de la Vierge"
               ],
-              "city": "Amsterdam",
-              "country": "NL",
-              "postalCode": "1083 HS"
+              "city": "Ambarès & Lagrave",
+              "country": "FR",
+              "postalCode": "33565"
             }
           }
         ],
         "identifier": [
           {
             "system": "https://spor.ema.europa.eu/omswi",
-            "value": "ORG-100013412",
+            "value": "ORG-100011564",
             "use": "official"
           }
         ],
@@ -948,21 +1260,21 @@
           {
             "coding": [
               {
-                "code": "220000000032",
+                "code": "220000000033",
                 "system": "https://spor.ema.europa.eu/rmswi",
-                "display": "Medicines Regulatory Authority"
+                "display": "Manufacturer"
               }
             ]
           }
         ],
-        "name": "European Medicines Agency"
+        "name": "Sanofi Winthrop Industrie"
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-2977a2afce16a0bd914b8d242dd126b5",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-d91b269b209aaa5538a1bfafd1a7434d",
       "resource": {
         "resourceType": "PackagedProductDefinition",
-        "id": "ppd-2977a2afce16a0bd914b8d242dd126b5",
+        "id": "ppd-d91b269b209aaa5538a1bfafd1a7434d",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
@@ -971,11 +1283,11 @@
         "identifier": [
           {
             "system": "https://spor.ema.europa.eu/pmswi",
-            "value": "EU/1/19/1370/001",
+            "value": "EU/1/97/049/010",
             "use": "official"
           }
         ],
-        "name": "Dovato 50 mg/300 mg film-coated tablets 30",
+        "name": "Karvea 75 mg tablet 14",
         "type": {
           "coding": [
             {
@@ -994,7 +1306,14 @@
             }
           ]
         },
-        "statusDate": "2012-02-07T13:28:17Z",
+        "statusDate": "2015-02-07T13:28:17Z",
+        "containedItemQuantity": [
+          {
+            "value": 75,
+            "code": "mg",
+            "system": "http://unitsofmeasure.org"
+          }
+        ],
         "packaging": {
           "quantity": 1,
           "type": {
@@ -1029,7 +1348,7 @@
                 {
                   "item": {
                     "reference": {
-                      "reference": "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"
+                      "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
                     }
                   }
                 }
@@ -1037,20 +1356,20 @@
               "type": {
                 "coding": [
                   {
-                    "code": "100000073504",
+                    "code": "100000073496",
                     "system": "https://spor.ema.europa.eu/rmswi",
-                    "display": "Child-resistant closure"
+                    "display": "Blister"
                   }
                 ]
               },
-              "quantity": 30,
+              "quantity": 14,
               "material": [
                 {
                   "coding": [
                     {
-                      "code": "200000003203",
+                      "code": "200000003222",
                       "system": "https://spor.ema.europa.eu/rmswi",
-                      "display": "Glass"
+                      "display": "PolyVinyl Chloride"
                     }
                   ]
                 }
@@ -1060,21 +1379,378 @@
         },
         "packageFor": [
           {
-            "reference": "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
           }
         ],
         "manufacturer": [
           {
-            "reference": "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+            "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
           }
         ]
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-f3f2f89544dfc5d20216861bcf90c0c5",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "ppd-f3f2f89544dfc5d20216861bcf90c0c5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/pmswi",
+            "value": "EU/1/97/049/001",
+            "use": "official"
+          }
+        ],
+        "name": "Karvea 75 mg tablet 28",
+        "type": {
+          "coding": [
+            {
+              "code": "100000155527",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Chemical Medicinal Product"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://hl7.org/fhir/publication-status",
+              "display": "Active"
+            }
+          ]
+        },
+        "statusDate": "2015-02-07T13:28:17Z",
+        "containedItemQuantity": [
+          {
+            "value": 75,
+            "code": "mg",
+            "system": "http://unitsofmeasure.org"
+          }
+        ],
+        "packaging": {
+          "quantity": 1,
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Box"
+              }
+            ]
+          },
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003529",
+                  "system": "https://spor.ema.europa.eu/rmswi",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "packaging": [
+            {
+              "identifier": [
+                {
+                  "system": "https://spor.ema.europa.eu/pmswi",
+                  "value": "123456"
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+                    }
+                  }
+                }
+              ],
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073496",
+                    "system": "https://spor.ema.europa.eu/rmswi",
+                    "display": "Blister"
+                  }
+                ]
+              },
+              "quantity": 28,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003222",
+                      "system": "https://spor.ema.europa.eu/rmswi",
+                      "display": "PolyVinyl Chloride"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          }
+        ],
+        "manufacturer": [
+          {
+            "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-5763619e2b501aeeab53677bd09d5cbf",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "ppd-5763619e2b501aeeab53677bd09d5cbf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/pmswi",
+            "value": "EU/1/97/049/002",
+            "use": "official"
+          }
+        ],
+        "name": "Karvea 75 mg tablet 56",
+        "type": {
+          "coding": [
+            {
+              "code": "100000155527",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Chemical Medicinal Product"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://hl7.org/fhir/publication-status",
+              "display": "Active"
+            }
+          ]
+        },
+        "statusDate": "2015-02-07T13:28:17Z",
+        "containedItemQuantity": [
+          {
+            "value": 75,
+            "code": "mg",
+            "system": "http://unitsofmeasure.org"
+          }
+        ],
+        "packaging": {
+          "quantity": 1,
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Box"
+              }
+            ]
+          },
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003529",
+                  "system": "https://spor.ema.europa.eu/rmswi",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "packaging": [
+            {
+              "identifier": [
+                {
+                  "system": "https://spor.ema.europa.eu/pmswi",
+                  "value": "123456"
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+                    }
+                  }
+                }
+              ],
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073496",
+                    "system": "https://spor.ema.europa.eu/rmswi",
+                    "display": "Blister"
+                  }
+                ]
+              },
+              "quantity": 56,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003222",
+                      "system": "https://spor.ema.europa.eu/rmswi",
+                      "display": "PolyVinyl Chloride"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          }
+        ],
+        "manufacturer": [
+          {
+            "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/PackagedProductDefinition/ppd-9b1d5d261d22694685deb35714ec08ea",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "ppd-9b1d5d261d22694685deb35714ec08ea",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/pmswi",
+            "value": "EU/1/97/049/003",
+            "use": "official"
+          }
+        ],
+        "name": "Karvea 75 mg tablet 98",
+        "type": {
+          "coding": [
+            {
+              "code": "100000155527",
+              "system": "https://spor.ema.europa.eu/rmswi",
+              "display": "Chemical Medicinal Product"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://hl7.org/fhir/publication-status",
+              "display": "Active"
+            }
+          ]
+        },
+        "statusDate": "2015-02-07T13:28:17Z",
+        "containedItemQuantity": [
+          {
+            "value": 75,
+            "code": "mg",
+            "system": "http://unitsofmeasure.org"
+          }
+        ],
+        "packaging": {
+          "quantity": 1,
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/rmswi",
+                "display": "Box"
+              }
+            ]
+          },
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003529",
+                  "system": "https://spor.ema.europa.eu/rmswi",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "packaging": [
+            {
+              "identifier": [
+                {
+                  "system": "https://spor.ema.europa.eu/pmswi",
+                  "value": "123456"
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee"
+                    }
+                  }
+                }
+              ],
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073496",
+                    "system": "https://spor.ema.europa.eu/rmswi",
+                    "display": "Blister"
+                  }
+                ]
+              },
+              "quantity": 98,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003222",
+                      "system": "https://spor.ema.europa.eu/rmswi",
+                      "display": "PolyVinyl Chloride"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e"
+          }
+        ],
+        "manufacturer": [
+          {
+            "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/MedicinalProductDefinition/mp873a1a47330e628770640f9c96c0761e",
       "resource": {
         "resourceType": "MedicinalProductDefinition",
-        "id": "mp16598f252d07b4784b82ba43cf9e847e",
+        "id": "mp873a1a47330e628770640f9c96c0761e",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
@@ -1083,11 +1759,11 @@
         "identifier": [
           {
             "system": "https://spor.ema.europa.eu/pmswi",
-            "value": "EU/1/19/1370/001"
+            "value": "EU/1/97/049/001"
           },
           {
             "system": "https://www.who-umc.org/phpid",
-            "value": "0x073AF2E5B92AE19E8B67635AFFB3D6CA"
+            "value": "0xF79CABF272B6A7EEF104DDDA44E82719"
           }
         ],
         "type": {
@@ -1128,7 +1804,7 @@
         },
         "name": [
           {
-            "productName": "Dovato 50 mg/300 mg film-coated tablets",
+            "productName": "Karvea 75 mg tablet",
             "type": {
               "coding": [
                 {
@@ -1140,7 +1816,7 @@
             },
             "part": [
               {
-                "part": "Dovato",
+                "part": "Karvea",
                 "type": {
                   "coding": [
                     {
@@ -1152,7 +1828,7 @@
                 }
               },
               {
-                "part": "dolutegravir/lamivudine",
+                "part": "irbesartan",
                 "type": {
                   "coding": [
                     {
@@ -1164,7 +1840,7 @@
                 }
               },
               {
-                "part": "50 mg/300 mg",
+                "part": "75 mg",
                 "type": {
                   "coding": [
                     {
@@ -1176,7 +1852,7 @@
                 }
               },
               {
-                "part": "film-coated tablets",
+                "part": "tablet",
                 "type": {
                   "coding": [
                     {
@@ -1193,18 +1869,18 @@
                 "country": {
                   "coding": [
                     {
-                      "code": "GBR",
+                      "code": "DK",
                       "system": "urn:iso:std:iso:3166",
-                      "display": "United Kingdom"
+                      "display": "Denmark"
                     }
                   ]
                 },
                 "jurisdiction": {
                   "coding": [
                     {
-                      "code": "GBR",
+                      "code": "DK",
                       "system": "urn:iso:std:iso:3166",
-                      "display": "United Kingdom"
+                      "display": "Denmark"
                     }
                   ]
                 },
@@ -1224,10 +1900,10 @@
       }
     },
     {
-      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f",
+      "fullUrl": "http://hl7.eu/fhir/ig/gravitate-health/ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee",
       "resource": {
         "resourceType": "ManufacturedItemDefinition",
-        "id": "mid-49178f16170ee8a6bc2a4361c1748d5f",
+        "id": "mid-dcaa4d32aa6658a8df831551503e52ee",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
@@ -1236,7 +1912,7 @@
         "identifier": [
           {
             "system": "https://spor.ema.europa.eu/pmswi",
-            "value": "EU/1/19/1370/001",
+            "value": "EU/1/97/049/001",
             "use": "official"
           }
         ],
@@ -1244,9 +1920,9 @@
         "manufacturedDoseForm": {
           "coding": [
             {
-              "code": "100000073665",
+              "code": "100000073664",
               "system": "https://spor.ema.europa.eu/rmswi/",
-              "display": "Film-coated tablet"
+              "display": "Tablet"
             }
           ]
         },
@@ -1261,7 +1937,7 @@
         },
         "manufacturer": [
           {
-            "reference": "Organization/man-173fde4cb6b1018cb7ec8ab708d3961c"
+            "reference": "Organization/man-4bb7a752921434fd5f9921b5b9473eda"
           }
         ]
       }
