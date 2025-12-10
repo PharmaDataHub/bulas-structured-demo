@@ -106,6 +106,203 @@
             color: #1d4ed8;
         }
 
+        /* Special content boxes */
+        .warning-box {
+            background: linear-gradient(to right, #fef2f2, #fef2f2);
+            border-left: 4px solid #ef4444;
+            border-radius: 0 0.75rem 0.75rem 0;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .warning-box-title {
+            font-weight: 600;
+            color: #991b1b;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .warning-box-content {
+            color: #b91c1c;
+        }
+
+        .info-box {
+            background-color: #f0f9ff;
+            border: 1px solid #bae6fd;
+            border-radius: 0.75rem;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .info-box-title {
+            font-weight: 600;
+            color: #075985;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-box-content {
+            color: #0369a1;
+        }
+
+        .dosage-box {
+            background-color: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 0.75rem;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .dosage-box.purple {
+            background-color: #faf5ff;
+            border-color: #e9d5ff;
+        }
+
+        .dosage-box-title {
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .dosage-box.purple .dosage-box-title {
+            color: #6b21a8;
+        }
+
+        .dosage-box-content {
+            color: #1d4ed8;
+        }
+
+        .dosage-box.purple .dosage-box-content {
+            color: #7c3aed;
+        }
+
+        /* Side effects frequency styling */
+        .frequency-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            border-radius: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .frequency-item.very-common {
+            background: linear-gradient(to right, #fee2e2, #fef2f2);
+        }
+
+        .frequency-item.common {
+            background: linear-gradient(to right, #ffedd5, #fff7ed);
+        }
+
+        .frequency-item.uncommon {
+            background: linear-gradient(to right, #fef9c3, #fefce8);
+        }
+
+        .frequency-item.rare {
+            background: linear-gradient(to right, #dbeafe, #eff6ff);
+        }
+
+        .frequency-dot {
+            width: 0.75rem;
+            height: 0.75rem;
+            border-radius: 50%;
+            margin-top: 0.375rem;
+            flex-shrink: 0;
+        }
+
+        .frequency-dot.very-common {
+            background-color: #ef4444;
+        }
+
+        .frequency-dot.common {
+            background-color: #f97316;
+        }
+
+        .frequency-dot.uncommon {
+            background-color: #eab308;
+        }
+
+        .frequency-dot.rare {
+            background-color: #3b82f6;
+        }
+
+        .frequency-label {
+            font-weight: 700;
+        }
+
+        .frequency-label.very-common {
+            color: #b91c1c;
+        }
+
+        .frequency-label.common {
+            color: #c2410c;
+        }
+
+        .frequency-label.uncommon {
+            color: #a16207;
+        }
+
+        .frequency-label.rare {
+            color: #1d4ed8;
+        }
+
+        /* Frequency legend */
+        .frequency-legend {
+            display: grid;
+            gap: 0.75rem;
+            margin: 1rem 0;
+        }
+
+        .frequency-legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            border-radius: 0.75rem;
+        }
+
+        /* Storage grid */
+        .storage-grid {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            margin: 1rem 0;
+        }
+
+        .storage-item {
+            border-radius: 0.75rem;
+            padding: 1rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .storage-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        /* Subsection label */
+        .subsection-label {
+            display: inline-block;
+            background-color: #f1f5f9;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #334155;
+            margin-bottom: 0.5rem;
+        }
+
         /* Nested sections styling */
         .nested-section {
             margin-top: 1rem;
@@ -480,11 +677,395 @@
             const tempDiv = document.createElement('div');
             tempDiv.innerHTML = html;
 
-            // Process the content
+            // Apply smart formatting to the content
+            return applySmartFormatting(tempDiv.innerHTML);
+        }
+
+        // Apply smart formatting to detect and style special content
+        function applySmartFormatting(html) {
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
+
+            // Process paragraphs with bold text that might be subsection headers
+            const paragraphs = tempDiv.querySelectorAll('p');
+            paragraphs.forEach(p => {
+                const text = p.textContent.toLowerCase();
+                const strongEl = p.querySelector('strong');
+
+                if (strongEl) {
+                    const strongText = strongEl.textContent.toLowerCase();
+
+                    // Warning/Contraindication boxes
+                    if (strongText.includes('não tome') || strongText.includes('do not take') ||
+                        strongText.includes('não use') || strongText.includes('não utilize')) {
+                        wrapInWarningBox(p, 'fa-ban', strongEl.textContent);
+                    }
+                    // Allergy/Emergency warnings
+                    else if (strongText.includes('pare de tomar') || strongText.includes('stop taking') ||
+                        strongText.includes('contacte o médico imediatamente') ||
+                        strongText.includes('contact your doctor immediately')) {
+                        wrapInWarningBox(p, 'fa-exclamation-triangle', strongEl.textContent);
+                    }
+                    // Overdose warning
+                    else if (strongText.includes('tomar mais') || strongText.includes('take more') ||
+                        strongText.includes('sobredosagem') || strongText.includes('overdose')) {
+                        wrapInWarningBox(p, 'fa-exclamation-circle', strongEl.textContent);
+                    }
+                    // Missed dose info
+                    else if (strongText.includes('esqueceu') || strongText.includes('forgot') ||
+                        strongText.includes('missed')) {
+                        wrapInInfoBox(p, 'fa-clock', strongEl.textContent, 'amber');
+                    }
+                    // Dosage info - specific patient groups
+                    else if (strongText.includes('doentes com pressão') && strongText.includes('diabetes')) {
+                        wrapInDosageBox(p, 'fa-user-plus', strongEl.textContent, 'purple');
+                    }
+                    else if (strongText.includes('doentes com') || strongText.includes('patients with')) {
+                        wrapInDosageBox(p, 'fa-user', strongEl.textContent);
+                    }
+                    // General dose info
+                    else if (strongText.includes('dose')) {
+                        wrapInDosageBox(p, 'fa-prescription-bottle', strongEl.textContent);
+                    }
+                    // Mode of administration
+                    else if (strongText.includes('modo de administração') || strongText.includes('how to take') ||
+                        strongText.includes('via oral')) {
+                        wrapInSubsectionLabel(p, strongEl.textContent);
+                    }
+                    // Pregnancy
+                    else if (strongText.includes('gravidez') || strongText.includes('pregnancy')) {
+                        wrapInInfoBox(p, 'fa-person-pregnant', strongEl.textContent, 'pink');
+                    }
+                    // Breastfeeding
+                    else if (strongText.includes('amamentação') || strongText.includes('breastfeeding')) {
+                        wrapInInfoBox(p, 'fa-baby', strongEl.textContent, 'pink');
+                    }
+                    // Driving
+                    else if (strongText.includes('condução') || strongText.includes('driving') ||
+                        strongText.includes('máquinas') || strongText.includes('machines')) {
+                        wrapInInfoBox(p, 'fa-car', strongEl.textContent, 'amber');
+                    }
+                    // Children / Utilização em crianças
+                    else if (strongText.includes('crianças') || strongText.includes('children') ||
+                        strongText.includes('adolescentes') || strongText.includes('pediatric') ||
+                        strongText.includes('utilização em')) {
+                        wrapInInfoBox(p, 'fa-child', strongEl.textContent, 'cyan');
+                    }
+                    // Interactions
+                    else if (strongText.includes('outros medicamentos') || strongText.includes('other medicines') ||
+                        strongText.includes('interações') || strongText.includes('interactions')) {
+                        wrapInSubsectionLabel(p, strongEl.textContent);
+                    }
+                    // Blood tests needed
+                    else if (strongText.includes('verificações ao sangue') || strongText.includes('blood tests') ||
+                        strongText.includes('análises')) {
+                        wrapInInfoBox(p, 'fa-vial', strongEl.textContent, 'purple');
+                    }
+                    // Side effects reporting
+                    else if (strongText.includes('comunicação de efeitos') || strongText.includes('reporting side effects')) {
+                        wrapInInfoBox(p, 'fa-comment-medical', strongEl.textContent, 'emerald');
+                    }
+                    // Food and drink
+                    else if (strongText.includes('alimentos') || strongText.includes('bebidas') ||
+                        strongText.includes('food') || strongText.includes('drink')) {
+                        wrapInInfoBox(p, 'fa-utensils', strongEl.textContent, 'emerald');
+                    }
+                    // Composition / Contains
+                    else if (strongText.includes('composição') || strongText.includes('composition')) {
+                        wrapInSubsectionLabel(p, strongEl.textContent);
+                    }
+                    // Contains lactose/sodium warnings
+                    else if (strongText.includes('contém lactose') || strongText.includes('contains lactose') ||
+                        strongText.includes('contém sódio') || strongText.includes('contains sodium')) {
+                        wrapInInfoBox(p, 'fa-info-circle', strongEl.textContent, 'amber');
+                    }
+                    // Warnings and precautions
+                    else if (strongText.includes('advertências') || strongText.includes('warnings') ||
+                        strongText.includes('precauções') || strongText.includes('precautions')) {
+                        wrapInSubsectionLabel(p, strongEl.textContent);
+                    }
+                    // Appearance / Package
+                    else if (strongText.includes('aspeto') || strongText.includes('aspecto') ||
+                        strongText.includes('appearance') || strongText.includes('embalagem')) {
+                        wrapInSubsectionLabel(p, strongEl.textContent);
+                    }
+                    // Marketing Authorization Holder / Manufacturer
+                    else if (strongText.includes('titular') || strongText.includes('fabricante') ||
+                        strongText.includes('holder') || strongText.includes('manufacturer')) {
+                        wrapInSubsectionLabel(p, strongEl.textContent);
+                    }
+                }
+            });
+
+            // Look for list items that describe patient groups for dosage
+            const listItems = tempDiv.querySelectorAll('ul > li');
+            listItems.forEach(li => {
+                const text = li.textContent.toLowerCase();
+                // Check if this is a dosage indication for specific patients
+                if ((text.includes('doentes com') || text.includes('patients with')) &&
+                    (text.includes('dose') || text.includes('mg') || text.includes('pressão'))) {
+                    const isComplex = text.includes('diabetes') || text.includes('renal') || text.includes('rins');
+                    const bgColor = isComplex ? 'bg-purple-50 border-purple-200' : 'bg-blue-50 border-blue-200';
+                    const titleColor = isComplex ? 'text-purple-800' : 'text-blue-800';
+                    const textColor = isComplex ? 'text-purple-700' : 'text-blue-700';
+                    const icon = isComplex ? 'fa-user-plus' : 'fa-user';
+
+                    li.outerHTML = `
+                        <div class="${bgColor} border rounded-xl p-4 my-3">
+                            <p class="font-semibold ${titleColor} mb-1"><i class="fas ${icon} mr-2"></i>${li.innerHTML}</p>
+                        </div>
+                    `;
+                }
+            });
+
+            // Detect and style side effects frequency content
+            const fullText = tempDiv.textContent.toLowerCase();
+            if (fullText.includes('muito frequentes') || fullText.includes('very common') ||
+                fullText.includes('frequentes') || fullText.includes('common') ||
+                fullText.includes('pouco frequentes') || fullText.includes('uncommon')) {
+
+                // Style frequency items in lists
+                const listItems = tempDiv.querySelectorAll('li');
+                listItems.forEach(li => {
+                    const liText = li.textContent.toLowerCase();
+
+                    if (liText.startsWith('muito frequentes') || liText.startsWith('very common')) {
+                        styleFrequencyItem(li, 'very-common', 'Muito frequentes');
+                    } else if (liText.startsWith('frequentes') || liText.startsWith('common')) {
+                        styleFrequencyItem(li, 'common', 'Frequentes');
+                    } else if (liText.startsWith('pouco frequentes') || liText.startsWith('uncommon')) {
+                        styleFrequencyItem(li, 'uncommon', 'Pouco frequentes');
+                    } else if (liText.startsWith('raros') || liText.startsWith('rare')) {
+                        styleFrequencyItem(li, 'rare', 'Raros');
+                    }
+                });
+
+                // Also check for frequency legend paragraphs
+                paragraphs.forEach(p => {
+                    const pText = p.textContent.toLowerCase();
+                    if (pText.includes('muito frequentes') && pText.includes('podem afetar')) {
+                        styleFrequencyLegendItem(p, 'very-common');
+                    } else if (pText.includes('frequentes') && pText.includes('podem afetar') && !pText.includes('muito') && !pText.includes('pouco')) {
+                        styleFrequencyLegendItem(p, 'common');
+                    } else if (pText.includes('pouco frequentes') && pText.includes('podem afetar')) {
+                        styleFrequencyLegendItem(p, 'uncommon');
+                    } else if (pText.includes('raros') && pText.includes('podem afetar')) {
+                        styleFrequencyLegendItem(p, 'rare');
+                    }
+                });
+            }
+
+            // Detect storage instructions
+            if (fullText.includes('conservar') || fullText.includes('store') ||
+                fullText.includes('validade') || fullText.includes('expiry')) {
+                formatStorageSection(tempDiv);
+            }
+
             return tempDiv.innerHTML;
         }
 
-        // Render nested sections recursively
+        // Helper function to wrap element in warning box
+        function wrapInWarningBox(el, icon, title) {
+            const content = el.innerHTML.replace(/<strong[^>]*>.*?<\/strong>/i, '').trim();
+            el.outerHTML = `
+                <div class="warning-box">
+                    <div class="warning-box-title">
+                        <i class="fas ${icon}"></i> ${title}
+                    </div>
+                    <div class="warning-box-content">${content}</div>
+                </div>
+            `;
+        }
+
+        // Helper function to wrap element in dosage box
+        function wrapInDosageBox(el, icon, title, variant = '') {
+            const content = el.innerHTML.replace(/<strong[^>]*>.*?<\/strong>/i, '').trim();
+            // Determine if it should be purple (for special patient groups)
+            const titleLower = title.toLowerCase();
+            let variantClass = variant;
+            if (titleLower.includes('diabetes') || titleLower.includes('renal') ||
+                titleLower.includes('rins') || titleLower.includes('kidney')) {
+                variantClass = 'purple';
+                icon = 'fa-user-plus';
+            }
+            el.outerHTML = `
+                <div class="dosage-box ${variantClass}">
+                    <div class="dosage-box-title">
+                        <i class="fas ${icon}"></i> ${title}
+                    </div>
+                    <div class="dosage-box-content">${content}</div>
+                </div>
+            `;
+        }
+
+        // Helper function to wrap element in info box
+        function wrapInInfoBox(el, icon, title, color = 'blue') {
+            const content = el.innerHTML.replace(/<strong[^>]*>.*?<\/strong>/i, '').trim();
+            const colorClasses = {
+                blue: { bg: 'bg-blue-50', border: 'border-blue-200', title: 'text-blue-800', content: 'text-blue-700' },
+                purple: { bg: 'bg-purple-50', border: 'border-purple-200', title: 'text-purple-800', content: 'text-purple-700' },
+                emerald: { bg: 'bg-emerald-50', border: 'border-emerald-200', title: 'text-emerald-800', content: 'text-emerald-700' },
+                amber: { bg: 'bg-amber-50', border: 'border-amber-200', title: 'text-amber-800', content: 'text-amber-700' },
+                cyan: { bg: 'bg-cyan-50', border: 'border-cyan-200', title: 'text-cyan-800', content: 'text-cyan-700' },
+                pink: { bg: 'bg-pink-50', border: 'border-pink-200', title: 'text-pink-800', content: 'text-pink-700' }
+            };
+            const c = colorClasses[color] || colorClasses.blue;
+
+            el.outerHTML = `
+                <div class="${c.bg} border ${c.border} rounded-xl p-4 my-4">
+                    <p class="font-semibold ${c.title} mb-2"><i class="fas ${icon} mr-2"></i>${title}</p>
+                    <p class="${c.content}">${content}</p>
+                </div>
+            `;
+        }
+
+        // Helper to add subsection label styling
+        function wrapInSubsectionLabel(el, title) {
+            const content = el.innerHTML.replace(/<strong[^>]*>.*?<\/strong>/i, '').trim();
+            el.outerHTML = `
+                <p><span class="subsection-label">${title}</span></p>
+                ${content ? `<p>${content}</p>` : ''}
+            `;
+        }
+
+        // Style frequency item in list
+        function styleFrequencyItem(li, frequencyClass, label) {
+            const text = li.innerHTML;
+            // Extract content after the frequency label
+            const labelPatterns = [
+                /muito frequentes[^:]*:/i,
+                /very common[^:]*:/i,
+                /frequentes[^:]*:/i,
+                /common[^:]*:/i,
+                /pouco frequentes[^:]*:/i,
+                /uncommon[^:]*:/i,
+                /raros[^:]*:/i,
+                /rare[^:]*:/i
+            ];
+
+            let content = text;
+            for (const pattern of labelPatterns) {
+                content = content.replace(pattern, '');
+            }
+
+            li.outerHTML = `
+                <div class="frequency-item ${frequencyClass}">
+                    <span class="frequency-dot ${frequencyClass}"></span>
+                    <div>
+                        <strong class="frequency-label ${frequencyClass}">${label}:</strong>
+                        ${content.trim()}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Style frequency legend paragraph
+        function styleFrequencyLegendItem(p, frequencyClass) {
+            const colorMap = {
+                'very-common': { bg: 'from-red-100 to-red-50', dot: 'bg-red-500', text: 'text-red-700' },
+                'common': { bg: 'from-orange-100 to-orange-50', dot: 'bg-orange-500', text: 'text-orange-700' },
+                'uncommon': { bg: 'from-yellow-100 to-yellow-50', dot: 'bg-yellow-500', text: 'text-yellow-700' },
+                'rare': { bg: 'from-blue-100 to-blue-50', dot: 'bg-blue-500', text: 'text-blue-700' }
+            };
+            const c = colorMap[frequencyClass];
+
+            p.outerHTML = `
+                <div class="flex items-center gap-3 bg-gradient-to-r ${c.bg} rounded-xl p-3 my-2">
+                    <div class="w-3 h-3 ${c.dot} rounded-full"></div>
+                    <span class="${c.text}">${p.innerHTML}</span>
+                </div>
+            `;
+        }
+
+        // Format storage section with grid layout
+        function formatStorageSection(container) {
+            const paragraphs = container.querySelectorAll('p');
+            const storageItems = [];
+
+            paragraphs.forEach(p => {
+                const text = p.textContent.toLowerCase();
+
+                if (text.includes('crianças') || text.includes('children') || text.includes('alcance')) {
+                    storageItems.push({
+                        icon: 'fa-child',
+                        title: 'Crianças',
+                        content: p.textContent,
+                        bgColor: 'bg-cyan-50',
+                        borderColor: 'border-cyan-200',
+                        iconBg: 'bg-cyan-100',
+                        iconColor: 'text-cyan-600',
+                        titleColor: 'text-cyan-800',
+                        textColor: 'text-cyan-700'
+                    });
+                    p.remove();
+                }
+                else if (text.includes('validade') || text.includes('expiry') || text.includes('após val')) {
+                    storageItems.push({
+                        icon: 'fa-calendar-xmark',
+                        title: 'Validade',
+                        content: p.textContent,
+                        bgColor: 'bg-amber-50',
+                        borderColor: 'border-amber-200',
+                        iconBg: 'bg-amber-100',
+                        iconColor: 'text-amber-600',
+                        titleColor: 'text-amber-800',
+                        textColor: 'text-amber-700'
+                    });
+                    p.remove();
+                }
+                else if (text.includes('temperatura') || text.includes('temperature') ||
+                    text.includes('30°c') || text.includes('30ºc') || text.includes('acima de')) {
+                    storageItems.push({
+                        icon: 'fa-temperature-high',
+                        title: 'Temperatura',
+                        content: p.textContent,
+                        bgColor: 'bg-red-50',
+                        borderColor: 'border-red-200',
+                        iconBg: 'bg-red-100',
+                        iconColor: 'text-red-600',
+                        titleColor: 'text-red-800',
+                        textColor: 'text-red-700'
+                    });
+                    p.remove();
+                }
+                else if (text.includes('ambiente') || text.includes('deite fora') ||
+                    text.includes('lixo') || text.includes('canalização') || text.includes('disposal')) {
+                    storageItems.push({
+                        icon: 'fa-leaf',
+                        title: 'Ambiente',
+                        content: p.textContent,
+                        bgColor: 'bg-emerald-50',
+                        borderColor: 'border-emerald-200',
+                        iconBg: 'bg-emerald-100',
+                        iconColor: 'text-emerald-600',
+                        titleColor: 'text-emerald-800',
+                        textColor: 'text-emerald-700'
+                    });
+                    p.remove();
+                }
+            });
+
+            if (storageItems.length > 0) {
+                let gridHtml = '<div class="storage-grid">';
+                storageItems.forEach(item => {
+                    gridHtml += `
+                        <div class="storage-item ${item.bgColor} border ${item.borderColor}">
+                            <div class="storage-icon ${item.iconBg}">
+                                <i class="fas ${item.icon} ${item.iconColor}"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold ${item.titleColor}">${item.title}</p>
+                                <p class="${item.textColor} text-sm">${item.content}</p>
+                            </div>
+                        </div>
+                    `;
+                });
+                gridHtml += '</div>';
+
+                // Insert grid at the beginning
+                container.insertAdjacentHTML('afterbegin', gridHtml);
+            }
+        }        // Render nested sections recursively
         function renderNestedSections(sections, depth = 0) {
             if (!sections || sections.length === 0) return '';
 
